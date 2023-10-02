@@ -1,0 +1,165 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#topBar
+{
+    height: 35px;
+    width: auto;
+    background-color:rgb(84, 125, 145);
+    font-family: 'Lucida Handwriting';
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+}
+
+#logo
+{
+    background-image: url("logo.png");
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    padding: 5px;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+}
+
+#card
+{
+    position: inherit;
+    margin: 100px;
+    background-color:rgb(255, 254, 198);
+    width: 220px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li
+{
+    padding: 5px;
+    display:inline-flex;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#connect
+{
+    height: 10px;
+    width: 10px;
+}
+
+#searchBox
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#submit
+{
+    height: 20px;
+    width: 20px;
+    background-image: url("search.png");
+    background-size: cover;
+    margin-left: 30px;
+    border-style: none;
+}
+
+#cityName
+{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: lucida handwriting;;
+}
+
+#footBox
+{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(130, 178, 202, 0.8);
+    position: inherit;
+    bottom: 0px;
+}
+
+#ig, #fb, #x, #yt
+{
+    height: 30px;
+    width: 30px;
+    margin: 30px;
+}
+
+#ig:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#x:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#fb:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#yt:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#iconBox
+{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 100px;
+}
+
+#ig
+{
+    background-image: url("ig.png");
+    background-size: cover;
+}
+
+#x
+{
+    background-image: url("x.png");
+    background-size: cover;
+}
+
+#yt
+{
+    background-image: url("yt.png");
+    background-size: cover;
+}
+
+#fb
+{
+    background-image: url("fb.png");
+    background-size: cover;
+}
+
+#devBox
+{
+    font-family: lucida handwriting;
+    display: flex;
+    justify-content: center;
+}
